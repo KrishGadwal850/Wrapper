@@ -1,0 +1,435 @@
+@media screen and (min-width:199px) and (max-width:398px) {
+    .hero>h1 {
+        font-size: 30rem;
+        padding: 10rem 40rem 0rem 1rem;
+        height: 90vh;
+        /* background-color: red; */
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+    }
+
+    .devices .brand>h1 {
+        font-size: 2rem;
+        letter-spacing: .4rem;
+    }
+
+    .skContainer {
+        width: 90%;
+    }
+    .phone>img ,.laptop>img {
+        display: none;
+    }
+    .section1>.box{
+        width: 15rem;
+    }
+}
+
+@media screen and (min-width: 399px) and (max-width: 499px) {
+    .hero>h1 {
+        font-size: 33rem;
+        padding: 0rem 30rem 0rem 1rem;
+        /* background-color: red; */
+    }
+
+    .skContainer {
+        width: 45%;
+    }
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+
+    .deviceAnim>.phone>h1,
+    .deviceAnim>.laptop>h1 {
+        font-size: 6rem;
+    }
+    .phone>img ,.laptop>img {
+        display:none;
+    }
+    .section1>.box{
+        width: 15rem;
+    }
+}
+
+@media screen and (min-width: 499px) and (max-width: 599px) {
+    .hero>h1 {
+        font-size: 36rem;
+        padding: 0rem 8rem 0rem 1rem;
+        letter-spacing: 2rem;
+        /* transform:translate(1%,0%) */
+        /* background-color: red; */
+    }
+    .page2>.pg2Head>h1 {
+        font-size: 3.2rem;
+        letter-spacing: .4rem;
+    }
+    .pg3Head > h1{
+        font-size: 3rem;
+        letter-spacing: .4rem;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+
+    .skContainer {
+        width: 32%;
+    }
+
+    .deviceAnim>.phone>h1,
+    .deviceAnim>.laptop>h1 {
+        font-size: 6rem;
+    }
+    .phone>img ,.laptop>img {
+        display: none;
+    }
+    .section1>.box{
+        width: 13rem;
+    }
+}
+
+@media screen and (min-width: 599px) and (max-width: 699px) {
+    .hero>h1 {
+        font-size: 38rem;
+        padding: 0rem 4rem 0rem 1rem;
+        /* transform:translate(1%,0%) */
+        /* background-color: red; */
+    }
+    .skContainer>.contvalue {
+        flex-direction: row;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+    .page2>.pg2Head>h1 {
+        font-size: 3.6rem;
+        letter-spacing: .4rem;
+    }
+    .pg3Head > h1{
+        font-size: 3.2rem;
+        letter-spacing: .5rem;
+    }
+
+    .skContainer {
+        width: 32%;
+    }
+
+    .deviceAnim>.phone>h1,
+    .deviceAnim>.laptop>h1 {
+        font-size: 6rem;
+    }
+    .section1>.box{
+        width: 14rem;
+    }
+}
+
+@media screen and (min-width: 699px) and (max-width: 799px) {
+    .hero>h1 {
+        font-size: 42rem;
+        padding: 0rem 1rem 0rem 1rem;
+        /* transform:translate(1%,0%) */
+        /* background-color: red; */
+    }
+
+    .page2>.pg2Head>h1 {
+        font-size: 4.5rem;
+        letter-spacing: .7rem;
+        word-spacing: 1rem;
+    }
+    .pg3Head > h1{
+        font-size: 3.2rem;
+        letter-spacing: .5rem;
+    }
+
+    .deviceAnim>.phone>h1,
+    .deviceAnim>.laptop>h1 {
+        font-size: 6rem;
+    }
+
+    .devices .brand>h1 {
+        font-size: 4rem;
+        letter-spacing: .6rem;
+    }
+
+    .skContainer {
+        width: 32%;
+    }
+    .skContainer>.contvalue {
+        flex-direction: row;
+    }
+
+    .navbar {
+        height: 12vh;
+    }
+
+    .navbar .logo>h1 {
+        font-size: 5rem;
+    }
+
+    .navbar i {
+        font-size: 1.8rem;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+    .section1>.box{
+        width: 13rem;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 899px) {
+    .hero>h1 {
+        font-size: 42rem;
+        padding: 5rem 0rem 0rem 4rem;
+        /* transform:translate(1%,0%) */
+        /* background-color: red; */
+    }
+
+    .page2>.pg2Head>h1 {
+        font-size: 4.5rem;
+        letter-spacing: .7rem;
+        word-spacing: 1rem;
+    }
+    .pg3Head > h1{
+        font-size: 3.4rem;
+        letter-spacing: .6rem;
+        word-spacing: .7rem;
+    }
+
+    .deviceAnim>.phone>h1,
+    .deviceAnim>.laptop>h1 {
+        font-size: 6rem;
+    }
+
+    .devices .brand>h1 {
+        font-size: 4rem;
+        letter-spacing: .6rem;
+    }
+
+    .skContainer {
+        width: 24%;
+    }
+    .skContainer>.contvalue {
+        flex-direction: row;
+    }
+
+    .navbar {
+        height: 12vh;
+    }
+
+    .navbar .logo>h1 {
+        font-size: 5rem;
+    }
+
+    .navbar i {
+        font-size: 1.8rem;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+    .section1>.box{
+        width: 14rem;
+    }
+}
+
+@media screen and (min-width: 899px) and (max-width: 999px) {
+    .hero>h1 {
+        font-size: 43rem;
+        padding: 0rem 1rem 0rem 4rem;
+        letter-spacing: 3rem;
+        /* transform:translate(1%,0%) */
+        /* background-color: red; */
+    }
+    .page2>.pg2Head>h1 {
+        font-size: 4.5rem;
+        letter-spacing: .7rem;
+        word-spacing: 1rem;
+    }
+    .pg3Head > h1{
+        font-size: 3.7rem;
+        letter-spacing: .6rem;
+        word-spacing: .7rem;
+    }
+
+    .deviceAnim>.phone>h1,
+    .deviceAnim>.laptop>h1 {
+        font-size: 6rem;
+    }
+
+    .devices .brand>h1 {
+        font-size: 4rem;
+        letter-spacing: .6rem;
+    }
+
+    .skContainer {
+        width: 24%;
+    }
+    .skContainer>.contvalue {
+        flex-direction: row;
+    }
+
+    .navbar {
+        height: 11vh;
+    }
+
+    .navbar .logo>h1 {
+        font-size: 4rem;
+    }
+
+    .navbar i {
+        font-size: 1.8rem;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+
+    .section1>.box{
+        width: 16rem;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1099px) {
+    .hero>h1 {
+        font-size: 40rem;
+        padding: 0rem 10rem 0rem 4rem;
+        letter-spacing: 3rem;
+        /* transform:translate(1%,0%) */
+        /* background-color: red; */
+    }
+
+    .page2>.pg2Head>h1 {
+        font-size: 7rem;
+        letter-spacing: .8rem;
+        word-spacing: 1rem;
+    }
+    .pg3Head > h1{
+        font-size: 5rem;
+        letter-spacing: .6rem;
+        word-spacing: .7rem;
+    }
+
+    .deviceAnim>.phone>h1,
+    .deviceAnim>.laptop>h1 {
+        font-size: 7rem;
+        font-stretch: 400%;
+        letter-spacing: .5rem;
+    }
+
+    .devices .brand>h1 {
+        font-size: 4rem;
+        letter-spacing: .6rem;
+    }
+
+    .skContainer {
+        width: 24%;
+    }
+    .skContainer>.contvalue {
+        flex-direction: row;
+    }
+
+    .navbar {
+        height: 11vh;
+    }
+
+    .navbar .logo>h1 {
+        font-size: 4rem;
+    }
+
+    .navbar i {
+        font-size: 1.8rem;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+    .section1>.box{
+        width: 16rem;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width:2000px) {
+    .hero>h1 {
+        font-size: 49rem;
+        padding: 0rem 0rem 0rem 6rem;
+        letter-spacing: 4rem;
+        /* transform:translate(1%,0%) */
+        /* background-color: red; */
+    }
+    .page2>.pg2Head>h1 {
+        font-size: 10rem;
+        letter-spacing: .7rem;
+        word-spacing: 1rem;
+    }
+    .pg3Head > h1{
+        font-size: 5.2rem;
+        letter-spacing: .6rem;
+        word-spacing: .7rem;
+    }
+
+    .deviceAnim>.phone>h1,
+    .deviceAnim>.laptop>h1 {
+        font-size: 6rem;
+        padding: 3rem 0rem;
+
+    }
+
+    .devices .brand>h1 {
+        font-size: 5rem;
+        letter-spacing: .6rem;
+    }
+
+    .skContainer {
+        width: 22%;
+    }
+    .skContainer>.contvalue {
+        flex-direction: row;
+    }
+
+    .navbar {
+        height: 11vh;
+    }
+
+    .navbar .logo>h1 {
+        font-size: 4rem;
+    }
+
+    .navbar i {
+        font-size: 1.8rem;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+
+    .deviceAnim>.phone>h1,
+    .deviceAnim>.laptop>h1 {
+        font-size: 6rem;
+        font-stretch: 400%;
+        letter-spacing: .5rem;
+    }
+
+    .devices .devName>img {
+        width: 17%;
+        margin: 0rem 2rem;
+    }
+
+    .page2>.pg2Head>h1 {
+        font-size: 5rem;
+    }
+    .section1>.box{
+        width: 19rem;
+    }
+}
